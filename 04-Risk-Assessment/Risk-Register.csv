@@ -1,0 +1,7 @@
+Risk ID,Risk,Risk statement,Current likelihood,Current impact,Current score,Current rating,Proposed post-action likelihood,Proposed post-action impact,Proposed post-action score,Post-action rating,Risk owner,Treatment,Caveat
+RISK-001,Privileged access governance,Improperly controlled privileged RMM access could enable unauthorized access affecting MSP services.,4,5,20,Critical,2,5,10,High,IT Director,Mitigate; acceptance request RA-2026-001 pending,Ongoing review and alert effectiveness unverified
+RISK-002,Asset inventory visibility,Unreconciled asset records and ownership gaps may cause unmanaged systems to evade monitoring or patching.,3,4,12,High,,,,Not reassessed,IT Director,Mitigate,Risk owner validation pending
+RISK-003,Recovery assurance,Lack of evidenced restore testing may delay recovery of critical services.,4,5,20,Critical,,,,Not reassessed,Infrastructure Manager,Test restore capability,Provisional score; BIA and evidence pending
+RISK-004,Incident response readiness,Unexercised incident procedures may delay containment and coordination.,3,4,12,High,,,,Not reassessed,Security Manager,Conduct tabletop,Provisional score
+RISK-005,Monitoring validation,Unverified monitoring coverage may delay threat detection.,3,3,9,Moderate,,,,Not reassessed,Security Manager,Validate alert coverage,Provisional score
+RISK-006,Governance documentation,Unclear formal responsibilities may delay accountability and risk decisions.,2,3,6,Moderate,,,,Not reassessed,CEO / IT Director,Document governance,Provisional score

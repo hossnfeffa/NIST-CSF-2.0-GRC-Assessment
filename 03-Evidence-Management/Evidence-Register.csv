@@ -1,0 +1,10 @@
+Evidence ID,Domain,Simulated evidence summary,Review status,Limitation
+IAM-001,Privileged access,Approved policy 18 months old; 24 privileged accounts; MFA on 22; no documented review in 12 months; two unowned,Reviewed,Initial finding
+IAM-002,Privileged access,ADMIN-023 interactive legacy service account; ADMIN-024 former contractor account; privileged RMM access; MFA absent; alerting absent,Reviewed,No breach established
+IAM-003,Privileged access,ADMIN-023 interactive access disabled; ADMIN-024 disabled/sessions revoked; MFA on remaining interactive privileged accounts; first review signed,Reviewed,Ongoing control validation open
+AST-001,Asset inventory,ConnectWise 420 devices; Defender 455 devices,Reviewed,Different populations possible
+AST-002,Asset ownership,18 records without documented owner,Reviewed,Overlap with other exceptions unknown
+AST-003,Asset lifecycle,12 stale >90 days; 8 retired in ConnectWise but active in Defender,Reviewed,Reconciliation SOP absent
+IR-001,Incident response,Incident response plan exists; exercise evidence unavailable,Partial,Exercise not demonstrated
+BKP-001,Recovery,Automated backup jobs reported; restore test results unavailable,Partial,Recovery not verified
+MON-001,Monitoring,SIEM operational; coverage and alert tests incomplete,Partial,Technical validation pending

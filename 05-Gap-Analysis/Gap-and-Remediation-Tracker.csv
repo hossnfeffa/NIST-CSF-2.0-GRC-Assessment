@@ -1,0 +1,7 @@
+Gap ID,CSF outcome,Gap,Priority,Accountable owner,Remediation,Status,Evidence
+GAP-001,PR.AA-05,Privileged access governance,Critical initially,IT Director,Validate alerts; approve SOP; execute recurring reviews,Open,IAM-001; IAM-002; IAM-003
+GAP-002,ID.AM-01,Inventory reconciliation,High,IT Operations Manager,Reconcile source populations; resolve owner and lifecycle exceptions,Open,AST-001; AST-002; AST-003
+GAP-003,RC.RP-02,Recovery test evidence,Critical provisional,Infrastructure Manager,Run authorized restore test; compare to approved recovery objectives,Open,BKP-001
+GAP-004,RS.MA-01,Incident response exercise,High provisional,Security Manager,Conduct tabletop and track corrective actions,Open,IR-001
+GAP-005,DE.CM-01,Network monitoring validation,Moderate provisional,Security Manager,Document coverage and test representative alerts,Open,MON-001
+GAP-006,GV.RR-02,Formal security responsibilities,Moderate provisional,CEO / IT Director,Approve and communicate RACI and accountability,Open,Interview notes
